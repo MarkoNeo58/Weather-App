@@ -1,0 +1,77 @@
+* {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(to top, #13297a, #2078cf);
+}
+
+.container {
+    font-size: 2rem;
+    background-color: #fff;
+    color: #232a44;
+    padding: .3rem 0rem;
+    max-width: 350px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    margin: 30px auto;
+    box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, .25);
+}
+
+@media (max-width: 600px){
+    .container {
+        margin: 20px auto;
+    }
+}
+
+.app-title p {
+    padding: 1rem;
+    font-size: 1.7rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.notification p {
+    font-size: 1.1rem;
+    background-color: rgba(253, 101, 101, 0.568);
+    color: rgb(129, 0, 0);
+    padding: 1rem;
+    margin: 0;
+}
+
+.weather-container {
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(241, 241, 241);
+}
+
+.weather-icon img{
+    width: 43%;
+}
+
+.temperature-value p{
+    font-size: 4.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.7rem;
+    cursor: pointer;
+}
+
+.temperature-value span{
+    font-size: 2.5rem;
+}
+
+.temperature-description p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.location p {
+    font-size: 1rem;
+}
